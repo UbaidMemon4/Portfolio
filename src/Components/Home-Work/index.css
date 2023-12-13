@@ -1,0 +1,41 @@
+.main_home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+}
+.titel {
+  color: #002d5b;
+  font-family: system-ui;
+  font-size: 21px;
+  margin-top: 54px;
+}
+.ant-space1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  align-content: flex-start;
+  font-size: 29px;
+  padding-top: 98px;
+  padding-left: 65px;
+  color: #002d5b;
+}
+.list:hover {
+  cursor: pointer;
+  color: #ec5b53;
+}
+.learn-but {
+  background-color: #ec5b53;
+  color: white;
+  height: 48px;
+  width: 154px;
+  font-size: 21px;
+}
+.learn-but:hover {
+  background-color: #ea4840;
+  color: white;
+}
+.my-logo {
+  width: 435px;
+  height: 565px;
+}

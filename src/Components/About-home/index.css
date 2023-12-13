@@ -1,0 +1,63 @@
+.about_main_home {
+  display: flex;
+  margin-left: 60px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.about_heading {
+  color: #002d5b;
+}
+.about_title {
+  text-align: center;
+}
+.about_hr {
+  height: 2px;
+  background-color: #ec5b53;
+  border: none;
+  width: 100px;
+  margin-left: 620px;
+  margin-top: 22px;
+}
+.card_heading {
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+.card_hr {
+  height: 2px;
+  background-color: #ec5b53;
+  border: none;
+  text-align: start;
+  width: 100px;
+}
+
+.contact_me {
+  background-color: #ec5b53;
+  color: white;
+  height: 44px;
+  width: 155px;
+  padding: 5px 0px 0px 24px;
+  font-size: 20px;
+  margin-top: 22px;
+  margin-left: 18px;
+  border-radius: 11px;
+}
+.contact_me:hover {
+  background-color: #ea4840;
+  color: white;
+}
+.p {
+  color: rgb(72, 72, 72);
+  font-weight: 500;
+}
+.about_image {
+  width: 328px;
+  height: 401px;
+  box-shadow: 12px 0px 3px 12px #ea4840;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+.about_para {
+  margin-top: 150px;
+  margin-right: 10px;
+}

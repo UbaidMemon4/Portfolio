@@ -1,0 +1,32 @@
+.portfolio_bg {
+  background-color: #fefafa;
+  padding: 100px 0;
+}
+.portfolio_title {
+  text-align: center;
+}
+.portfolio_heading {
+  color: #002d5b;
+}
+.portfolio_hr {
+  height: 2px;
+  background-color: #ec5b53;
+  border: none;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 620px;
+  margin-top: 22px;
+}
+a {
+  font-weight: bold;
+  color: #ec5b53;
+}
+.link_Portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+iframe{
+  width: 353px;
+    height: 213px;
+}

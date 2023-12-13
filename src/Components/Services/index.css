@@ -1,0 +1,47 @@
+.service_bg {
+  background-color: rgb(255, 246, 247);
+}
+.service {
+  text-align: center;
+}
+.service_heading {
+  color: #002d5b;
+  padding-top: 80px;
+}
+.service_hr {
+  height: 2px;
+  background-color: #ec5b53;
+  border: none;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 620px;
+  margin-top: 22px;
+}
+.services_card {
+  margin: 82px 50px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+  border-radius: 22px;
+  width: 360px;
+}
+.anticon {
+  margin-left: 120px;
+  font-size: 26px;
+  margin-top: 7px;
+}
+.arrow_icon {
+  font-size: 36px;
+  margin: 120px 0px 0px 120px;
+}
+.arrow_icon:hover {
+  cursor: pointer;
+  transition: color 2s;
+  color: #ec5b53;
+}

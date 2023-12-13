@@ -1,0 +1,28 @@
+.experience_bg {
+  background-color: rgb(255, 242, 223);
+}
+.experience_title {
+  padding-top: 39px;
+  text-align: center;
+}
+.experience_heading {
+  color: #002d5b;
+}
+.experience_hr {
+  height: 2px;
+  background-color: #ec5b53;
+  border: none;
+  width: 100px;
+  margin-left: 620px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+.experience_card {
+  padding-bottom: 39px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.work_para{
+  padding-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.header_img {
+  padding-top: 17px;
+  padding-left: 74px;
+}
+.navlink {
+  display: flex;
+  gap: 28px;
+  font-size: 20px;
+  padding-top: 38px;
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+}
+.main_header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_but {
+  padding-top: 30px;
+  padding-right: 57px;
+}
+.hire_me {
+  background-color: #ec5b53;
+  color: white;
+  height: 44px;
+  width: 125px;
+  padding: 5px 0px 0px 24px;
+  font-size: 20px;
+}
+.hire_me:hover {
+  background-color: #ea4840;
+  color: white;
+}

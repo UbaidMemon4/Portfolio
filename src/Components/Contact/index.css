@@ -1,0 +1,38 @@
+.con {
+  background-color: #002d5b;
+}
+.main_contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 39px;
+}
+.ant_space2 {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 33px;
+}
+.list1:hover {
+  cursor: pointer;
+  color: #ec5b53;
+}
+.contact_img {
+  height: 121px;
+  width: 127px;
+  margin-left: 13px;
+}
+.email {
+  font-size: 14px;
+  padding-top: 34px;
+  color: white;
+
+}
+.maker {
+  color: white;
+  text-align: center;
+}
+.maker_p {
+  padding-bottom: 35px;
+  color: white;
+}

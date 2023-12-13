@@ -1,0 +1,28 @@
+.working_bg {
+  background-image: url("../../images/web-developer.jpg");
+  max-width: 100%;
+  max-height: 50%;
+  background-repeat: no-repeat;
+}
+.play_logo {
+  font-size: 76px;
+  padding-top: 97px;
+  margin-left: 642px;
+  color: white;
+}
+.play_logo:hover {
+  cursor: pointer;
+  transition: color 2s;
+  color: #ec5b53;
+}
+.working {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.working_para {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  padding-bottom: 86px;
+}
