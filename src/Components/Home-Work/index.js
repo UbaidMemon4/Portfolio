@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "../../images/my_photo.jpg";
 import "./index.css";
 import { Button, Space } from "antd";
+import { NavLink } from "react-router-dom";
+
 import {
   LinkedinFilled,
   InstagramFilled,
@@ -40,7 +42,9 @@ const Home_Work = () => {
           <br />I Have Experience On This Field Almost 8 Month..
 
         </p>
+        <NavLink to={"/about"}>
         <Button className="learn-but">Learn More</Button>
+            </NavLink>
       </div>
       <div className="logo">
         <img src={Logo} className="my-logo"/>

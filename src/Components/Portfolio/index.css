@@ -1,21 +1,20 @@
 .portfolio_bg {
   background-color: #fefafa;
-  padding: 100px 0;
+  padding: 70px 0 ;
 }
 .portfolio_title {
   text-align: center;
 }
 .portfolio_heading {
   color: #002d5b;
+  margin-bottom: 05px;
 }
 .portfolio_hr {
   height: 2px;
   background-color: #ec5b53;
   border: none;
   width: 100px;
-  margin-bottom: 10px;
-  margin-left: 620px;
-  margin-top: 22px;
+  margin: 18px 0 25px 620px;
 }
 a {
   font-weight: bold;
@@ -26,7 +25,7 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-iframe{
+iframe {
   width: 353px;
-    height: 213px;
+  height: 213px;
 }

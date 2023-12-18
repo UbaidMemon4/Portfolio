@@ -1,24 +1,24 @@
 .clients_bg {
   background-color: rgb(255, 242, 223);
+  padding: 30px 0;
 }
 .clients_title {
   padding-top: 39px;
   text-align: center;
 }
-.head{
+.head {
   margin-left: -117px;
 }
 .clients_heading {
   color: #002d5b;
+  margin-bottom: 15px;
 }
 .clients_hr {
   height: 2px;
   background-color: #ec5b53;
   border: none;
   width: 100px;
-  margin-bottom: 10px;
-  margin-left: 620px;
-  margin-top: 22px;
+  margin: 18px 0 25px 620px;
 }
 .clients_card {
   padding-bottom: 39px;

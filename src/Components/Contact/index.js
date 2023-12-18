@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../../images/logo.png";
 import "./index.css";
-import { Space } from "antd";
-
+// import { Space } from "antd";
+import { NavLink } from "react-router-dom";
 import {
   LinkedinFilled,
   InstagramFilled,
@@ -15,7 +15,6 @@ const Contact = () => {
       <div className="main_contact">
         <div className="icons">
           <ul className="ant_space2">
-            <Space>
               <li className="list1">
                 <LinkedinFilled />
               </li>
@@ -28,11 +27,12 @@ const Contact = () => {
               <li className="list1">
                 <BehanceCircleFilled />
               </li>
-            </Space>
           </ul>
         </div>
         <div className="contact_img">
+        <NavLink to={"/"}>
           <img src={Logo} />
+            </NavLink>
         </div>
         <div className="email">
           <h1>

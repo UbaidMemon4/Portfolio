@@ -25,6 +25,7 @@
   color: #ec5b53;
 }
 .learn-but {
+  margin-top: 55px;
   background-color: #ec5b53;
   color: white;
   height: 48px;
@@ -37,5 +38,6 @@
 }
 .my-logo {
   width: 435px;
-  height: 565px;
+  height: 521px;
+  border-radius: 15px;
 }

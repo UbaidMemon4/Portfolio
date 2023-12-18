@@ -1,14 +1,13 @@
 import React from "react";
 import "./index.css";
-import Header from "../../Components/Header";
+import Portfolio from "../../Components/Portfolio";
+import Clients_Says from "../../Components/Clients_Says";
 
 const Portfolio_Page = () => {
   return (
     <div className="p_page">
-      <Header />
-      <div>
-        <h1>Portfolio </h1>
-      </div>
+        <Portfolio />
+        <Clients_Says/>
     </div>
   );
 };

@@ -6,14 +6,15 @@ import Home_Page from "./pages/home_page/index";
 import About_Page from "./pages/about_page/index";
 import Contact_Page from "./pages/contact_page/index";
 import Portfolio_Page from "./pages/portfolio_page/index";
+import Layout from "./Components/Layout/layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Portfolio_Page />,
+    element: <Layout />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <Home_Page />,
       },
       {

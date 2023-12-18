@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import Header from "../../Components/Header";
 import Home_Work from "../../Components/Home-Work";
 import About_Home from "../../Components/About-home";
 import Services from "../../Components/Services";
@@ -9,13 +8,10 @@ import Experience from "../../Components/Work_Experence";
 import Portfolio from "../../Components/Portfolio";
 import Clients_Says from "../../Components/Clients_Says";
 import Touch from "../../Components/Touch";
-import Contact from "../../Components/Contact";
-import { Outlet } from "react-router-dom";
 const Home_Page = () => {
   return (
     <>
       <div className="home">
-        <Header/>
         <Home_Work/>
       </div>
       <About_Home/>
@@ -25,9 +21,6 @@ const Home_Page = () => {
     <Portfolio/>
     <Clients_Says/> 
     <Touch/>
-    <Contact/>/
-    <Outlet />
-
     </>
   );
 };

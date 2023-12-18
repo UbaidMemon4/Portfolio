@@ -4,7 +4,7 @@ import "./index.css";
 const Contact_Page = () => {
   return (
     <>
-    <h1>Contact</h1>
+    
     </>
   );
 };

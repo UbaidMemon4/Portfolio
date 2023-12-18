@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.css";
+import About_Home from "../../Components/About-home";
 
 const About_Page = () => {
   return (
     <>
-    <h1>About</h1>
+          <About_Home/>
     </>
   );
 };

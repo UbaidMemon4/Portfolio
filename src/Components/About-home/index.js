@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "antd/es/radio";
 import "./index.css";
 import image from "../../images/about-laptop.jpg";
+import { NavLink } from "react-router-dom";
+
 const About_Home = () => {
   return (
     <div>
@@ -20,13 +22,18 @@ const About_Home = () => {
           <hr className="card_hr" />
           <div className="about_me">
             <p className="p">
-              My Name is Ubaid..<br/>I Studied In Class 10th..<br/>I'm 15 Year Old..
+              My Name is Ubaid..
+              <br />I Studied In Class 10th..
+              <br />
+              I'm 15 Year Old..
             </p>
             <br />
             <p className="p">
               Almost 8 Month Ago, I Join Wen Devleloper Field.
             </p>
-            <Button className="contact_me">Contact Me</Button>
+            <NavLink to={"/contact"}>
+              <Button className="contact_me">Contact Me</Button>
+            </NavLink>
           </div>
         </div>
         <div className="about_para">
